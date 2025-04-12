@@ -1,9 +1,8 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
-import { CheckCircle, ArrowRight, ChevronRight, BarChart3, FileCheck, Shield, Database, Repeat, CreditCard, CheckCheck, Bank } from 'lucide-react';
+import { CheckCircle, ArrowRight, ChevronRight, BarChart3, FileCheck, Shield, Database, Repeat, CreditCard, CheckCheck, Building } from 'lucide-react';
 
 const Products: React.FC = () => {
   return (
@@ -213,7 +212,7 @@ const Products: React.FC = () => {
                 <div className="flex">
                   <div className="flex-shrink-0 mr-4">
                     <div className="w-12 h-12 bg-brand-purple/10 rounded-lg flex items-center justify-center">
-                      <Bank size={24} className="text-brand-purple" />
+                      <Building size={24} className="text-brand-purple" />
                     </div>
                   </div>
                   <div>
@@ -258,7 +257,7 @@ const Products: React.FC = () => {
               <div className="relative">
                 <div className="w-80 h-80 bg-brand-purple/10 rounded-full"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-48 h-48 bg-brand-purple rounded-full flex items-center justify-center">
+                  <div className="w-48 h-48 bg-brand-purple rounded-full flex items-center justify-center text-white">
                     <span className="text-white text-xl font-bold">流程力税盾360</span>
                   </div>
                   <div className="absolute top-0 transform -translate-y-1/2">
